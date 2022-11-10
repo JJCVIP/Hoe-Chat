@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background: rgb(31, 32, 34);
+  color: white;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hides the display */
+.hidden{
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Chat div */
+.chat{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 5px;
+  background-color: rgb(23, 22, 33);
 }
 
-.App-link {
-  color: #61dafb;
+/* Messages */
+.messages{
+  scroll-behavior: smooth;
+  overflow:scroll;
+  height: 550px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message-item{
+  margin-top: 5px;
+  padding: 5px;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+  border-color: rgba(12, 238, 110, 0.95);
+  border-style: double;
+}
+
+.input-box{
+  width:100%;
+  
+}
+
+.message-input{
+  margin-top: 2%;
 }

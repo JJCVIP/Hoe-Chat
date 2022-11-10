@@ -1,0 +1,19 @@
+/-------------------------/
+ -     Alpha 1.2          -
+ -      11/9/22           -
+/-------------------------/
+-Added Delete message button
+-Added send message functionality
+-Added togelable edit button
+-updated css so it doesn't just look quite so awful
+
+~J.J.
+
+/-------------------------/
+ -     Alpha 1.1         -
+ -      11/9/22          -
+/-------------------------/
+-Added editing functionality
+-css changes
+
+~J.J.
